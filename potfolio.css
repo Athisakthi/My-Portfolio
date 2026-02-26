@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  }
+
+body {
+background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+color: white;
+}
+
+/* Navbar */
+
+nav {
+display: flex;
+justify-content: space-between;
+padding: 20px 50px;
+background: rgba(255,255,255,0.05);
+backdrop-filter: blur(10px);
+}
+
+nav ul {
+display: flex;
+list-style: none;
+}
+
+nav ul li {
+margin-left: 20px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 60px;
+}
+
+.hero span {
+color: #ff4b5c;
+}
+
+.hero img {
+width: 260px;
+border-radius: 50%;
+box-shadow: 0 0 25px #ff4b5c, 0 0 40px #00c6ff;
+transition: 0.4s;
+}
+
+.hero img:hover {
+transform: scale(1.05);
+}
+
+/* Button */
+
+button {
+padding: 12px 22px;
+background: linear-gradient(45deg, #ff416c, #0072ff);
+border: none;
+border-radius: 30px;
+cursor: pointer;
+margin-top: 15px;
+color: white;
+font-weight: bold;
+transition: 0.3s;
+}
+
+button:hover {
+transform: scale(1.1);
+}
+
+/* Skills */
+
+.skills {
+padding: 50px;
+}
+
+.skill {
+margin: 20px 0;
+}
+
+.bar {
+background: rgba(255,255,255,0.2);
+border-radius: 20px;
+overflow: hidden;
+}
+
+.progress {
+height: 10px;
+width: 0;
+background: linear-gradient(90deg, #ff416c, #0072ff);
+border-radius: 20px;
+}
+
+/* Skill levels */
+
+.java { width: 90%; }
+.html { width: 95%; }
+.css { width: 85%; }
+.js { width: 70%; }
+
+/* Projects */
+
+.projects {
+padding: 50px;
+}
+
+.project-container {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.card {
+background: rgba(255,255,255,0.08);
+padding: 20px;
+border-radius: 15px;
+width: 250px;
+transition: 0.4s;
+border: 1px solid rgba(255,255,255,0.1);
+}
+
+.card:hover {
+transform: translateY(-10px) scale(1.05);
+background: rgba(255,255,255,0.15);
+}
+
+/* Footer */
+
+footer {
+text-align: center;
+padding: 20px;
+background: rgba(0,0,0,0.3);
+}
